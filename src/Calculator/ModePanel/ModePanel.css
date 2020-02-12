@@ -1,0 +1,19 @@
+.mode {
+  box-sizing: border-box;
+}
+.mode_btn {
+  font-size: 24px;
+  padding: 10px;
+  border: 0;
+  background-color: teal;
+  width: 50%;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: #ffffff;
+}
+
+.mode_btn.active {
+  background-color:transparent;
+  color: inherit;
+}
