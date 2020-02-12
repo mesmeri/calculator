@@ -1,0 +1,23 @@
+.Calculator {
+  width: 95%;
+  max-width: 1100px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-between;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.computation {
+  width: 55%;
+}
+
+.info {
+  width: 40%;
+}
+
+.computation,
+.info {
+  border: 1px solid #ccc;
+  background-color: #eeeeef;
+  border-radius: 3px;
+}

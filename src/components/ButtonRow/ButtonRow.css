@@ -1,0 +1,12 @@
+.Button_row p {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.Button_row button {
+  flex-grow: 1;
+}
+
+.buttons-wrapper {
+  display: flex;
+}

@@ -1,0 +1,35 @@
+ .Info_card {
+   padding: 20px;
+ }
+
+ .msrp_block {
+   padding: 10px;
+   display: flex;
+   align-items: center;
+   margin-bottom: 20px;
+ }
+
+ .msrp {
+   font-weight: bold;
+   font-size: 1.5em;
+   margin-left: auto;
+ }
+
+ .month_amount {
+   font-weight: bold;
+   font-size: 1.3em;
+   text-align: right;
+   padding: 5px 10px;
+  }
+
+ .vehicle_name {
+   text-align: center;
+   font-size: 2.5em;
+   color: teal;
+ }
+
+ span.bold {
+   margin-right: 10px;
+   font-size: 18px;
+   font-weight: bold;
+ }
