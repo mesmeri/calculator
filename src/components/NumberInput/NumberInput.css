@@ -1,0 +1,34 @@
+.Number_input {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 15px 0;
+  align-items: center;
+}
+
+.Number_input.vertical {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.Number_input label {
+  font-size: 18px;
+  margin-right: 20px;
+}
+
+.Number_input.vertical label {
+  margin-bottom: 15px;
+}
+
+.Number_input input {
+  padding: 10px 15px;
+}
+
+.Number_input .error {
+  border: 1px solid red;
+  margin-left: 15px;
+  margin-top: 10px;
+  padding: 5px 10px;
+  width: 100%;
+  border-radius: 3px;
+}
