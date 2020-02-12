@@ -1,0 +1,18 @@
+.Select {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+
+.Select label {
+  cursor: pointer;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.Select select {
+  cursor: pointer;
+  min-width: 200px;
+  padding: 10px 15px;
+}
