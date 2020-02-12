@@ -1,0 +1,12 @@
+.Button {
+  font-weight: bold;
+  border: 1px solid #ccc;
+  padding: 15px 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.Button.active {
+  background-color: teal;
+  color: #fff;
+}
